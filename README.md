@@ -19,6 +19,7 @@ This project leverages **Generative Adversarial Networks (GANs)** 🤖 to **gene
 
 ## 📊 Dataset  
 We used the **[Credit Card Fraud Detection Dataset](https://www.kaggle.com/datasets/sowmyakuruba/credit-card-fraud-detection/data)** from Kaggle.  
+- File included: `Creditcard_dataset.csv`  
 
 ---
 
@@ -40,77 +41,4 @@ NumPy
 Pandas
 Matplotlib
 Scikit-learn
-```
-
-Or install directly:  
-```bash
-pip install -r requirements.txt
-```
-
----
-
-## 🚀 Usage  
-
-1️⃣ Clone this repo:  
-```bash
-git clone https://github.com/your-username/fraud-data-gan.git
-cd fraud-data-gan
-```
-
-2️⃣ Start Jupyter Notebook:  
-```bash
-jupyter notebook
-```
-
-3️⃣ Open and run:  
-```bash
-Fraud_Data_Generation_GAN.ipynb
-```
-
-4️⃣ Train the GAN and generate synthetic fraud data.  
-📁 The generated dataset will be saved as a **CSV file** for further ML experiments.  
-
----
-
-## 📂 Project Structure  
-
-```
-📦 Fraud-Data-GAN
- ┣ 📜 Fraud_Data_Generation_GAN.ipynb   # Main Notebook
- ┣ 📜 requirements.txt                  # Dependencies
- ┣ 📜 LICENSE                           # MIT License
- ┗ 📜 README.md                         # Project Documentation
-```
-
----
-
-## 📈 Results  
-
-✅ GAN training visualizations:  
-- Loss curves for Generator & Discriminator  
-- Real vs Synthetic fraud data comparison  
-
-✅ Synthetic fraud data saved in `.csv` format.  
-
-*(Tip: Add screenshots/plots from your notebook here for extra appeal!)*  
-
----
-
-## 🤝 Contributing  
-
-Contributions are always welcome 💡!  
-
-- Fork this repo  
-- Create a new branch (`feature/your-feature`)  
-- Commit your changes  
-- Open a Pull Request 🚀  
-
----
-
-## 📜 License  
-This project is licensed under the **MIT License**.  
-Feel free to use and modify as per your needs.  
-
----
-
-✨ *If you like this project, give it a ⭐ on GitHub!*  
+XGBoost
